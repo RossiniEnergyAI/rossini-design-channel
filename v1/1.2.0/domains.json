@@ -1,0 +1,57 @@
+{
+  "$schema": "../schemas/domains.v1.json",
+  "registryVersion": 1,
+  "channel": "1",
+  "domains": [
+    {
+      "id": "vente",
+      "label": "Vente",
+      "description": "Prospection, appels d'offres, tournées, résultats",
+      "icon": "Handshake",
+      "order": 10,
+      "status": "active",
+      "href": "https://vente.rossinienergy.com/",
+      "agent": "achille"
+    },
+    {
+      "id": "operations",
+      "label": "Opérations",
+      "description": "Commandes, production, atelier",
+      "icon": "Factory",
+      "order": 20,
+      "status": "planned"
+    },
+    {
+      "id": "achats-stock",
+      "label": "Achats & stock",
+      "description": "Commandes fournisseurs, réceptions, stock",
+      "icon": "Warehouse",
+      "order": 30,
+      "status": "planned"
+    },
+    {
+      "id": "installation",
+      "label": "Installation",
+      "description": "Chantiers, livraisons, mise en service",
+      "icon": "HardHat",
+      "order": 40,
+      "status": "planned"
+    },
+    {
+      "id": "maintenance",
+      "label": "Maintenance",
+      "description": "Demandes, interventions, parc installé",
+      "icon": "Wrench",
+      "order": 50,
+      "status": "planned"
+    },
+    {
+      "id": "administration",
+      "label": "Administration",
+      "description": "Équipe, droits, journal",
+      "icon": "ShieldCheck",
+      "order": 90,
+      "status": "planned"
+    }
+  ]
+}
