@@ -1,7 +1,7 @@
-/* Rossini Energy design system 1.1.0 : généré depuis design/tokens/rossini.tokens.json. Ne pas modifier à la main. */
+/* Rossini Energy design system 1.1.1 : généré depuis design/tokens/rossini.tokens.json. Ne pas modifier à la main. */
 :root,
 [data-theme="light"] {
-  --re-design-version: "1.1.0";
+  --re-design-version: "1.1.1";
   color-scheme: light;
   --re-bg-app: #f5f5f7;
   --re-bg-app-image: none;
