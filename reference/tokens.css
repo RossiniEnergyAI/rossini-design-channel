@@ -1,7 +1,7 @@
-/* Rossini Energy design system 1.5.0 : généré depuis design/tokens/rossini.tokens.json. Ne pas modifier à la main. */
+/* Rossini Energy design system 1.5.1 : généré depuis design/tokens/rossini.tokens.json. Ne pas modifier à la main. */
 :root,
 [data-theme="light"] {
-  --re-design-version: "1.5.0";
+  --re-design-version: "1.5.1";
   color-scheme: light;
   --re-bg-app: #f5f5f7;
   --re-bg-app-image: none;
@@ -151,19 +151,19 @@
   --re-text: #eef4f0;
   --re-text-muted: #9cb0a6;
   --re-text-faint: #6f8279;
-  --re-accent: #e7504c;
-  --re-accent-hover: #ea6562;
-  --re-accent-soft: rgb(231 80 76 / 0.14);
-  --re-on-accent: #0b1714;
-  --re-link: #e7504c;
+  --re-accent: #0a84ff;
+  --re-accent-hover: #3b9dff;
+  --re-accent-soft: rgb(10 132 255 / 0.16);
+  --re-on-accent: #ffffff;
+  --re-link: #54a9ff;
   --re-focus: var(--re-accent);
-  --re-brand: #e3342f;
+  --re-brand: hsl(2 76% 54%);
   --re-rail-icon: var(--re-text-muted);
-  --re-rail-icon-active: #eb716d;
-  --re-rail-active-bg: rgb(227 52 47 / 0.07);
-  --re-nav-active-bg: #e7504c;
-  --re-nav-active-fg: #0b1714;
-  --re-nav-family-bg: rgb(231 80 76 / 0.1);
+  --re-rail-icon-active: hsl(2 76% 68%);
+  --re-rail-active-bg: hsl(2 76% 54% / 0.07);
+  --re-nav-active-bg: #0a84ff;
+  --re-nav-active-fg: #ffffff;
+  --re-nav-family-bg: rgb(10 132 255 / 0.12);
   --re-tooltip-bg: #eef4f0;
   --re-tooltip-fg: #0b1714;
   --re-info: #8fb4ff;
