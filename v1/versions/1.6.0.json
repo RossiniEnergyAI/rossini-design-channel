@@ -1,0 +1,17 @@
+{
+  "channel": "1",
+  "version": "1.6.0",
+  "publishedAt": "2026-11-15T16:16:23.100Z",
+  "keyId": "re-2026-10",
+  "files": {
+    "tokens.css": {
+      "path": "/v1/1.6.0/tokens.css",
+      "sha256": "2f1a5c52c4df7b05ad26b18757d927e5cdac4ff8ca60112239634b3b3d35eaf6"
+    },
+    "domains.json": {
+      "path": "/v1/1.6.0/domains.json",
+      "sha256": "d46f4f4443d54ce34a7ca1f084940cd18e903215874012d5a9644b7d5fb57cf1"
+    }
+  },
+  "signature": "FOXrrzTdet4XYRLmd0LIzjKEg4dQ3wgqGaDT88J85xEqkjAO7COtEhXTvrZttUV3VOgQRTCSB2YTcnnPopHTBg=="
+}
