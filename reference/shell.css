@@ -1,4 +1,4 @@
-/* Coque Rossini 1.6.0. Copie de design/shell/shell.css. */
+/* Coque Rossini 1.6.1. Copie de design/shell/shell.css. */
 /* Coque Rossini : rail d'icônes, panneau de rubrique, barre du haut avec sélecteur de domaine,
    fil d'Ariane, bouton de l'agent, loader. N'utilise que les tokens --re-*. Toute couleur écrite
    en dur dans ce fichier fait échouer la génération. Contrat de balisage : design/shell/SHELL.md. */
@@ -81,7 +81,7 @@
 }
 
 /* Compte de la personne : le logo RE en bas à gauche, toujours visible, ouvre son menu (thème, réglages, déconnexion). */
-.re-account { display: flex; justify-content: center; width: 100%; padding: 0 var(--re-space-1-5); }
+.re-account { display: flex; justify-content: center; width: 100%; padding: 0 var(--re-space-1); }
 .re-account__button {
   display: flex; align-items: center; justify-content: center; gap: var(--re-space-2-5);
   width: 100%; min-height: 44px; padding: var(--re-space-1-5);
@@ -92,7 +92,7 @@
 }
 .re-account__button:hover, .re-account__button[aria-expanded="true"] { background: var(--re-surface-hover); }
 .re-account__button:focus-visible { outline: 2px solid var(--re-focus); outline-offset: 2px; }
-.re-account__logo { display: block; width: 42px; height: 28px; object-fit: contain; flex-shrink: 0; }
+.re-account__logo { display: block; width: 42px; height: 28px; max-width: none; object-fit: contain; flex-shrink: 0; }
 .re-account__name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .re-account__menu, .re-account__menu * { box-sizing: border-box; }
 .re-account__menu {
