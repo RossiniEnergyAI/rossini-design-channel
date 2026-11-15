@@ -1,7 +1,7 @@
-/* Rossini Energy design system 1.5.1 : généré depuis design/tokens/rossini.tokens.json. Ne pas modifier à la main. */
+/* Rossini Energy design system 1.5.2 : généré depuis design/tokens/rossini.tokens.json. Ne pas modifier à la main. */
 :root,
 [data-theme="light"] {
-  --re-design-version: "1.5.1";
+  --re-design-version: "1.5.2";
   color-scheme: light;
   --re-bg-app: #f5f5f7;
   --re-bg-app-image: none;
@@ -135,43 +135,43 @@
 }
 [data-theme="dark"] {
   color-scheme: dark;
-  --re-bg-app: #0b1a18;
-  --re-bg-app-image: linear-gradient(rgb(255 255 255 / 0.025) 1px, transparent 1px), linear-gradient(90deg, rgb(255 255 255 / 0.025) 1px, transparent 1px), linear-gradient(160deg, #183b2e, #0e211b 42%, #0b1a18);
-  --re-bg-app-image-size: 44px 44px, 44px 44px, 100% 100%;
-  --re-surface-panel: #11201b;
-  --re-surface-subtle: #16271f;
-  --re-surface-raised: rgb(24 43 36);
+  --re-bg-app: #161618;
+  --re-bg-app-image: none;
+  --re-bg-app-image-size: auto;
+  --re-surface-panel: #1c1c1e;
+  --re-surface-subtle: #232326;
+  --re-surface-raised: #2a2a2d;
   --re-surface-hover: rgb(255 255 255 / 0.06);
-  --re-surface-nav: rgb(11 23 20 / 0.66);
+  --re-surface-nav: rgb(22 22 24 / 0.72);
   --re-surface-subnav: rgb(255 255 255 / 0.025);
-  --re-surface-topbar: rgb(11 23 20 / 0.85);
+  --re-surface-topbar: rgb(22 22 24 / 0.88);
   --re-nav-blur: blur(14px);
   --re-border: rgb(255 255 255 / 0.11);
   --re-border-strong: rgb(255 255 255 / 0.2);
-  --re-text: #eef4f0;
-  --re-text-muted: #9cb0a6;
-  --re-text-faint: #6f8279;
-  --re-accent: #0a84ff;
-  --re-accent-hover: #3b9dff;
-  --re-accent-soft: rgb(10 132 255 / 0.16);
-  --re-on-accent: #ffffff;
-  --re-link: #54a9ff;
+  --re-text: #f2f2f4;
+  --re-text-muted: #a1a1a8;
+  --re-text-faint: #6e6e75;
+  --re-accent: #ffffff;
+  --re-accent-hover: #e0e0e0;
+  --re-accent-soft: rgb(255 255 255 / 0.16);
+  --re-on-accent: #161618;
+  --re-link: #ffffff;
   --re-focus: var(--re-accent);
-  --re-brand: hsl(2 76% 54%);
+  --re-brand: #ffffff;
   --re-rail-icon: var(--re-text-muted);
-  --re-rail-icon-active: hsl(2 76% 68%);
-  --re-rail-active-bg: hsl(2 76% 54% / 0.07);
-  --re-nav-active-bg: #0a84ff;
-  --re-nav-active-fg: #ffffff;
-  --re-nav-family-bg: rgb(10 132 255 / 0.12);
-  --re-tooltip-bg: #eef4f0;
-  --re-tooltip-fg: #0b1714;
+  --re-rail-icon-active: #ffffff;
+  --re-rail-active-bg: rgb(255 255 255 / 0.08);
+  --re-nav-active-bg: #ffffff;
+  --re-nav-active-fg: #161618;
+  --re-nav-family-bg: rgb(255 255 255 / 0.12);
+  --re-tooltip-bg: #f2f2f4;
+  --re-tooltip-fg: #161618;
   --re-info: #8fb4ff;
   --re-info-bg: rgb(143 180 255 / 0.12);
   --re-info-border: rgb(143 180 255 / 0.3);
-  --re-success: #5ff2a8;
-  --re-success-bg: rgb(95 242 168 / 0.12);
-  --re-success-border: rgb(95 242 168 / 0.3);
+  --re-success: #30d158;
+  --re-success-bg: rgb(48 209 88 / 0.12);
+  --re-success-border: rgb(48 209 88 / 0.3);
   --re-warning: #f5b97a;
   --re-warning-bg: rgb(245 185 122 / 0.12);
   --re-warning-border: rgb(245 185 122 / 0.3);
@@ -183,7 +183,7 @@
   --re-agent-margaux: rgb(255 112 92);
   --re-agent-achille-shadow: rgb(0 0 0 / 0.35);
   --re-agent-margaux-shadow: rgb(0 0 0 / 0.35);
-  --re-loader-card: rgb(17 32 27 / 0.9);
+  --re-loader-card: rgb(28 28 30 / 0.9);
   --re-overlay: rgb(0 0 0 / 0.55);
   --re-shadow-card: 0 1px 2px rgb(0 0 0 / 0.3);
   --re-shadow-raised: 0 2px 8px rgb(0 0 0 / 0.4);
