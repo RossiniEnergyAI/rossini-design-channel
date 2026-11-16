@@ -1,17 +1,17 @@
 {
   "channel": "1",
-  "version": "1.10.0",
-  "publishedAt": "2026-11-15T20:22:33.253Z",
+  "version": "1.11.0",
+  "publishedAt": "2026-11-16T11:53:13.476Z",
   "keyId": "re-2026-10",
   "files": {
     "tokens.css": {
-      "path": "/v1/1.10.0/tokens.css",
-      "sha256": "96487117d1b4ca975ccf620fd68f14f1ceddb250899edd12c2d08ee8f3a9a96f"
+      "path": "/v1/1.11.0/tokens.css",
+      "sha256": "d7411fea31141d6f1a53b916fd417838a9b1163773edc0eb02687a2ec5180714"
     },
     "domains.json": {
-      "path": "/v1/1.10.0/domains.json",
-      "sha256": "d46f4f4443d54ce34a7ca1f084940cd18e903215874012d5a9644b7d5fb57cf1"
+      "path": "/v1/1.11.0/domains.json",
+      "sha256": "98afd28b3014643462ca61b60d3bdecf259bcf468be2ab165c8c0c4558c4a16d"
     }
   },
-  "signature": "YikvUaXUC3FmxBa0j3wyqI53idZ7hShSmi2jZXnk3XpBxTKdGTYnJQZGD/qvueBFYZdO/ZPAaCchrUvdt2MwBw=="
+  "signature": "jHQLRJT2OL6H8TS9hBPEGamw86cLoZ9LaVMHDQih0cxuN0hyVjf9hpbt4xDpbpwJS7RoR+NiCimTacwJbDv6DQ=="
 }
