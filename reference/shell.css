@@ -1,4 +1,4 @@
-/* Coque Rossini 1.17.14. Copie de design/shell/shell.css. */
+/* Coque Rossini 1.18.0. Copie de design/shell/shell.css. */
 /* Coque Rossini : rail d'icônes, panneau de rubrique, barre du haut avec sélecteur de domaine,
    fil d'Ariane, bouton de l'agent, loader. N'utilise que les tokens --re-*. Toute couleur écrite
    en dur dans ce fichier fait échouer la génération. Contrat de balisage : design/shell/SHELL.md. */
@@ -71,6 +71,8 @@
 .re-rail__tile { display: grid; place-items: center; width: var(--re-rail-tile); height: var(--re-rail-tile); }
 .re-rail__tile svg { width: var(--re-rail-icon-size); height: var(--re-rail-icon-size); stroke-width: 1.75; }
 .re-rail__label { display: none; }
+/* Un espace d'une seule application : ses pages sont dans le rail ; un filet les sépare des autres applications. */
+.re-rail__sep { display: block; flex: none; height: 1px; margin: var(--re-space-1) var(--re-space-2-5); background: var(--re-border); }
 .re-rail__app.is-external::after {
   content: ""; position: absolute; right: 9px; top: 9px; width: 5px; height: 5px;
   border-top: 1.5px solid currentColor; border-right: 1.5px solid currentColor; opacity: 0.6;
@@ -231,7 +233,8 @@ html[data-theme="dark"] .re-account__logo.is-dark { display: block; }
 @keyframes re-flyout-in { from { opacity: 0; translate: -4px 0; } to { opacity: 1; translate: 0 0; } }
 
 /* Zone principale et barre du haut */
-.re-main { min-width: 0; display: flex; flex-direction: column; }
+/* Toujours la dernière colonne : sans colonne de pages (une seule colonne de menu), le contenu tombait dans la piste vide. */
+.re-main { grid-column: 3; min-width: 0; display: flex; flex-direction: column; }
 .re-topbar {
   position: sticky; top: 0; z-index: var(--re-z-nav);
   display: flex; align-items: center; justify-content: space-between; gap: var(--re-space-4);
@@ -437,6 +440,7 @@ html[data-theme="dark"] .re-account__logo.is-dark { display: block; }
 @media (max-width: 900px), (max-height: 520px) and (max-width: 1100px) {
   .re-shell { display: block; }
   .re-rail { position: static; height: auto; border-bottom: 1px solid var(--re-border); }
+  .re-rail__sep { display: none; }
   .re-rail__apps { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--re-space-1); padding: var(--re-space-2); overflow: visible; }
   .re-rail__app { width: 100%; height: auto; min-height: 52px; padding: var(--re-space-1-5) var(--re-space-1); gap: 2px; }
   .re-rail__app.is-active::before { display: none; }
